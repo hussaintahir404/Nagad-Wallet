@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_theme"
+    tools:context=".AepsActivity">
+
+    <View
+        android:id="@+id/circleView"
+        android:layout_width="414dp"
+        android:layout_height="73dp"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="344dp"
+        android:layout_height="66dp"
+        android:text="Aadhaar Enabled Payment \n               Services"
+        android:textColor="#FFFFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <TextView
+        android:layout_width="313dp"
+        android:layout_height="71dp"
+        android:text="Welcome to AEPS India, your trusted provider of\n      Aadhaar Enabled Payment System (AEPS)\n                   software and API services."
+        android:textColor="#FFFFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <View
+        android:id="@+id/circleView"
+        android:layout_width="414dp"
+        android:layout_height="61dp"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteY="-5dp" />
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="44dp"
+        android:text="AEPS India offers Aadhaar Enable Payment Software and \nAEPS API integration services for Business all over India."
+        android:textColor="#FF000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/circleView"
+        android:layout_width="78dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:text="Cash Withdrawal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <View
+        android:id="@+id/circleView"
+        android:layout_width="80dp"
+        android:layout_height="62dp"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <TextView
+        android:layout_width="64dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="180dp"
+        android:text="Cash Deposit"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <View
+        android:id="@+id/circleView"
+        android:layout_width="78dp"
+        android:layout_height="61dp"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFFFF"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <View
+        android:id="@+id/circleView"
+        android:layout_width="80dp"
+        android:layout_height="62dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="172dp"
+        android:background="#FFFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:text="Balance Enquiry"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <TextView
+        android:layout_width="72dp"
+        android:layout_height="34dp"
+        android:text="Fund Transfer"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="206dp"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/img"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-24dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <View
+        android:id="@+id/circleView"
+        android:layout_width="80dp"
+        android:layout_height="62dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="64dp"
+        android:background="#FFFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:layout_width="79dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="64dp"
+        android:text="Payment Transaction"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/circleView"
+        android:layout_width="80dp"
+        android:layout_height="62dp"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="16dp"
+        android:background="#FFFFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <TextView
+        android:layout_width="79dp"
+        android:layout_height="52dp"
+        android:text="Mini Statement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <View
+        android:id="@+id/circleView"
+        android:layout_width="80dp"
+        android:layout_height="62dp"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFFFF"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="585dp" />
+
+    <TextView
+        android:layout_width="79dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="76dp"
+        android:text="Aadhaar Pay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/circleView"
+        android:layout_width="80dp"
+        android:layout_height="62dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="180dp"
+        android:background="#FFFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.362"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:layout_width="79dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="180dp"
+        android:text="Micro ATM"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.364"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/circleView"
+        android:layout_width="80dp"
+        android:layout_height="62dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="84dp"
+        android:background="#FFFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="280dp" />
+
+    <TextView
+        android:layout_width="79dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="84dp"
+        android:text="Instant Payout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/circleView"
+        android:layout_width="80dp"
+        android:layout_height="62dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="180dp"
+        android:background="#FFFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="213dp" />
+
+    <TextView
+        android:layout_width="52dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="192dp"
+        android:text="E-KYC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="24dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/baseline_account_balance_wallet_24"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="394dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="38dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_more"
+        tools:layout_editor_absoluteX="352dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

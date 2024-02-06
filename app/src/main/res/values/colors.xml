@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="app_theme">#FF5733</color>
+    <color name="navbar_theme">#ED8F4B8F</color>
+    <color name="app_light_theme">#fcc081</color>
+    <color name="Button_color">#CA5137</color>
+    <color name="textColorHint">#A9A9A9></color>
+    <color name="maroon">#800000</color> // Use this for add new color
+</resources>
