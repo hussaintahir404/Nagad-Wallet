@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/circleView"
+            android:layout_width="414dp"
+            android:layout_height="44dp"
+            android:layout_centerInParent="true"
+            android:background="#ED8F4B8F" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="67dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="102dp"
+            android:layout_height="27dp"
+            android:layout_marginBottom="640dp"
+            android:text="Backend Data"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

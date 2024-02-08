@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsuranceActivity">
+
+    <View
+        android:id="@+id/circleView"
+        android:layout_width="414dp"
+        android:layout_height="44dp"
+        android:layout_centerInParent="true"
+        android:background="#ED8F4B8F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="67dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logonagad" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="92dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="289dp"
+        android:layout_marginBottom="690dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:layout_width="102dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginBottom="636dp"
+        android:text="Backend Data"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="580dp"
+        android:text="Hi, Welcome back MD Tahir Hussain!!!"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/circleView2"
+        android:layout_width="363dp"
+        android:layout_height="499dp"
+        android:layout_centerInParent="true"
+        android:background="@color/app_light_theme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="522dp"
+        android:text="INSURANCE"
+        android:textColor="#FF000000"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/circleView3"
+        android:layout_width="310dp"
+        android:layout_height="397dp"
+        android:layout_centerInParent="true"
+        android:background="#EDB478"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="259dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="453dp"
+        android:text="INSURANCE NUMBER *"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pan_number"
+        android:layout_width="289dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="297dp"
+        android:layout_marginBottom="386dp"
+        android:background="#FFFFFFFF"
+        android:hint="  Enter Insurance Number"
+        android:inputType="text"
+        android:textColorHint="#A9A9A9"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="213dp"
+        android:text="SELECT OPERATOR *"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/insurance_no"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="395dp"
+        android:layout_marginBottom="288dp"
+        android:background="#FFFFFFFF"
+        android:hint="  Select"
+        android:inputType="text"
+        android:textColorHint="#A9A9A9"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="155dp"
+        android:text="ENTER RECHARGE AMOUNT *"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.651" />
+
+    <EditText
+        android:id="@+id/ifsc_code"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="499dp"
+        android:layout_marginBottom="184dp"
+        android:background="#FFFFFFFF"
+        android:hint="  Amount"
+        android:inputType="text"
+        android:textColorHint="#A9A9A9"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="233dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="567dp"
+        android:layout_marginBottom="116dp"
+        android:backgroundTint="#CA5137"
+        android:text="Proceed To Recharge"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/circleView4"
+        android:layout_width="413dp"
+        android:layout_height="37dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="694dp"
+        android:background="@color/app_theme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:layout_width="252dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="702dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="4dp"
+        android:text="Copyright © 2021. All Right Reserved."
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.669"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
